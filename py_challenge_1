@@ -1,9 +1,0 @@
-test_in=input()
-
-for i in test_in:
-    if(i.isalpha()):
-        print(chr(ord(i)+2),end="")
-    else:
-        print(i,end="")
-    
-
